@@ -1,0 +1,235 @@
+A
+     Abjuration Brewing                              Honey Double IPA               HDIPA v1.4                       8.1% 
+                                                     Double IPA                     DIPA v2.1                        8.0% 
+                                                     Matcha Tea Milkshake Ale       MTMA v1.0                        5.8% 
+                                                     Pierogi Ale                    PA v1.0                          6.0%
+
+
+     Allegheny City Brewing                          Pale Boy                       Mosaic Pale Ale                  6.0% 
+                                                     Think Spring                   Hibiscus Berry Tea Pale Ale      6.2% 
+                                                     My Name is Fragaria            Strawberry Smoothie Sour         5.0% 
+                                                     SuperSoaker                    IPA                              6.4%
+
+
+     Apis                                            Raspberry Blackberry           Mead                             8.5%
+                                                     Peach Apricot                  Mead                             8%
+                                                     Bomb First                     Mead                             8.5%
+                                                     + TBD Firkin  --  --
+
+
+     Arsenal Cider House                             Picket Bone Dry                Hard Apple Cider                 8.5%
+                                                     Event Blend                    Semi-Sweet Hard Apple Cider      6.5%
+
+
+     Aurochs Brewing Co.                             Citra Pale Ale  --  -- 
+                                                     Sour White  --  --
+
+
+     Arsenal Cider House                             Picket Bone Dry                Hard Apple Cider                 8.5%
+                                                     Event Blend                    Semi-Sweet Hard Apple Cider      6.5%
+B
+     Big Rail Brewing                                Dime Piece                     Blonde Ale                       5%
+                                                     Hella Dank                     IPA                              6.5%
+
+     Bloom Brew                                      Shweat                         Pineapple Habanero Wheat         6.7% 
+                                                     Lil Brown Cacao                Chocolate Stout                  5.3% 
+                                                     Mothra vs Citra                IPA                              6.5% 
+                                                     Mango Z Tango                  Mango Wheat                      6.5 
+                                                     Snewton                        IPA                              6.3% 
+                                                     Playa De Smithton              Apricot Lager                    5.2%
+
+
+     Brew Gentlemen                                  General Braddock's IPA         American IPA                     6.8%
+                                                     TBD 1                          TBD 1
+                                                     TBD 2                          TBD 2
+                                                     TBD 3                          TBD 3
+
+
+
+   Burgh'ers Brewing                         The Sower                  Belgian Witbier              4.9%
+                                             T is For Trolley           Session IPA                  5%
+
+   Butler Brew Works                         Ancient Artifacts          Hazy DIPA                    8% 
+                                             Creekside                  Kolsch                       5% 
+                                             Soft Top                   Hazy IPA                     5.5% 
+                                             Ale of Eros                Belgian Fruit Beer           10.5%
+C
+   Cellar Works Brewing Co                   Big Stream                 Kolsch                       5.0% 
+                                             Moon Cannon                IPA                          6.2% 
+                                             Mixed Berry Sour           Sour                         4.2%
+
+   Cinderlands Beer Co                       Arch and Drum              Coffee Milk Stout            10% 
+                                             Major Tom Collins          Tartshake Double IPA         9.7% 
+                                             Mango Pineapple Whipper    Berliner Weisse              4.8% 
+                                             Bounce and Sway            IPA                          7.2%
+
+
+   Cobblehaus Brewing Co.                    Olde Towne Alt             German Altbier               5.3
+                                             Black Bear                 Black IPA                    7.5%
+                                             Cobblehaus Quad            Belgian Quad                 11.3%
+                                             Wicked Denny               American Brown               6.6%
+                                             Lay Day                    Berliner Weissen             4.3%
+                                             Feeling Brut               Brut IPA                     6.2%
+
+
+   Conny Creek Brewing Co                    Coffee Camp                Cinnamon Graham Stout        8%
+                                             Strawberry & Mango         Fruited Sour                 5.25%
+                                             TBD IPA  --  --
+
+   Crooked Tongue Brewing                    Chasing Sun                Milkshake IPA                6%
+                                             Apricot Squirt Gun Etique..Mixed Culture Sour           4.8%
+D
+   Dancing Gnome                             Underscore Guava           Fruited Sour                 4% 
+                                             Wishbone                   Pale Ale                     5% 
+                                             Dead Sleep Coconut         Stout                        8% 
+                                             Better 1 or 2              DIPA                         8% 
+                                             Paper Scissors             TIPA                         11% 
+                                             Upward Below               Hoppy Session                4.2%
+
+
+   Devout Brewing                            Saison de Pierre           Traditional Belgian Saison   5.9% 
+                                             Morning Rush               Sweet Stout                  5.0% 
+                                             Abbey Ale                  Belgian Dubbel               7.4% 
+                                             The Sovereign              Belgian Tripel               7.5%
+
+
+E
+   East End Brewing Co.                  For the Culture         Brut IPA 2.0
+                                         Allentown               Imperial Arnold Palmer Shandy
+
+   Eleventh Hour Brewery                 Dream Cannon 6: Summer.. Fruited Sour             4.4%
+                                         Shattered Illusion      NE IPA                    7.1%
+                                         Noble Spirit: Citra     American Pilsner          5%
+                                         Untitled Desert Stout   Stout                     9%
+
+   Enix Brewing Company                  Avenida 8               DIPA                      8.2% 
+                                         Coffee OGRO             Imperial Stout            11% 
+                                         B.A. OGRO               Imperial Stout            12% 
+                                         Yusi Fruit IPA          Fruit IPA                 6.6%
+F
+   Four Points Brewing                   Fourth Street           IPA                       6.6% 
+                                         Wow & Flutter           DIPA                      8.5% 
+                                         Sour Cerveza            Sour Ale                  4.0%
+
+   Four Seasons Brewing                  Nebulous                IPA                       6.5%
+                                         Darkside of the Pint    Oatmeal Stout             6.9%
+
+   Fury Brewing Company                  TBD  --  --
+G
+   Grist House Craft Brewery             Hippie Science          Double IPA                8%
+                                         Parrot Party            Dessert Sour              7.5%
+                                         Arnold Shaman           Fruited Sour              5.5%
+H
+   Helltown Brewing                      BLQ Metal               West Coast IPA            6.5%
+                                         Hefeweizen              Hefeweizen                5.0%
+
+   Hitchhiker Brewing                    Agrio                   Strawberry Margarita Gose 4.4%
+                                         Cococino                Coffee Porter             6.8%
+                                         Whole Punch             MIlkshake IPA
+                                         Arbitrary Number        IPA                       7.1%
+                                         Barrel Aged Woke        Bourbon Barrel Aged Stout 8%
+
+   Hop Farm Brewing Co                   Margotberry             Raspberry Berliner        7.5% 
+                                         Papa                    Native Pale Ale           4.8% 
+                                         Fresh Pot of Porte      Coffee Porter             5.0%
+I
+   Insurrection AleWorks                 Tangled Hangers         Milk Stout                5%
+                                         Intrepid Traveler       DIPA                      8%
+
+
+K
+   KingView Mead                               Pina Colada                 Hard Cider                     6.5% 
+                                               Rosé                        Mead                           8.5% 
+                                               Cran Maple                  Mead                           8.5% 
+                                               Blue & White                Mead                           8.5%
+
+
+   Koehler Brewing Company                     Juicy Brucey                Hazy IPA                       --
+                                               Premium                     Lager                          --
+                                               Amber Ale                   Amber Ale                      --
+L
+   Laurel Highlands Meadery                    Traditional Mead                                           7.5%
+                                               Chambourcin                                                13%
+
+
+   The Leaning Cask Brewing Company            Mango Mastiff               Mango IPA                      6.0% 
+                                               Submissive Grin             Key Lime Milkshake IPA         7.3% 
+                                               Whippwit                    Witbier                        4.7% 
+                                               War Hound                   Black IPL                      7.0%
+M
+   Mindful Brewing Company                     Big Brain                   Imperial Amber                 8%
+                                               Lime Agave                  American Wheat                 6%
+N
+   Noble Stein Brewing Company                 Uncle Hefe                  Hefeweizen                     5.4%
+                                               Moo-Saic Pineapple          Milkshake IPA                  5.6%
+
+   North Country Brewing Co                    Tropical Pale Ale           Fruited Pale Ale               7.7%
+                                               Lurnberry Sour              Fruited Kettle Sour            4.5%
+P
+   Petrucci Brothers Brewing                   Mad Brewers                 Bourbon Barrel Aged Imperial.. 9.6%
+                                               Triple C Hops Farm          IPA                            7.1%
+
+   Platform Beer Co                            Worry No More               New England IPA                7.2%
+                                               These Four Walls            Fruited Sour IPA               8.6%
+R
+   Recon Brewing                               Mother Earth                Saison                         7%
+                                               Dink Dank Dunk              Session IPA                    4.9%
+                                               Illusion of Light           White Stout                    6%
+
+   Red Star Kombucha                           Pineapple Mint Kombucha                                    2.5%
+                                               Blueberry Oolong Kombucha                                  2.5%
+
+
+   Rivertowne Brewing                          Hazy Morning                Hazy IPA                       6.7%
+                                               Suburban Housewife          Blackberry Cucumber Kolsch     5.5%
+
+
+   Rusty Gold Brewing                          Border Czech                Bohemian Pilsner               5.8% 
+                                               Bramble Thicket             Berry Wheat                    5.3% 
+                                               Serious Business            American IPA                   7.1% 
+                                               Tippling Cow                Milk Stout                     6.1%
+                                               
+S
+   ShuBrew                                Corfam                   Hazy IPA 
+                                          Shu's On First           Pilsner
+ 
+   Spring Hill Brewing                    Hilltop Dusk             Nut-brown Farmhouse        5%
+                                          Hilltop Afternoon        Golden Saison              6% 
+                                          Humble Country Oaf       Smoked Sour                5.3%
+
+   Sobel’s Obscure Brewery                Peachy Pilsner           German-Style Pilsner       7%
+                                          Honey Blossom Hefeweizen American-Style Hefeweizen  6%
+
+
+                                          Orange Creamsicle IPA    Milkshake IPA              7.0%
+   Southern Tier Brewing Co.              Coffee Blonde Ale        Blonde Ale                 5.1%
+
+   Stick City Brewing Company             TBD IPA  --  --
+                                          TBD 2  --  --
+
+
+   Strange Roots Expirimental Ales        TBD --  --
+
+T
+   The Church Brew Works                  Pious Monk               Dunkel                     5.5%
+                                          Mexicali Blues           Mexicali Blues             5%
+                                          TBD  --  --
+ 
+   Threadbare Cider                       Fiesta Margarita Cider   Dry Hopped Cider           7%
+                                          Bouquet de Rosé Cider    Modern Rose Cider          7% 
+                                          Farmhouse                Traditional Semi-Dry Cider 8%
+V
+   Voodoo Brewery                         White Magick of the Sun  Spiced Belgian Whea        7.3%
+                                          Good Vibes               West Coast IPA             7.3%
+W
+   Whitehorse Brewing                     Honey Lager  --  --
+                                          Pious IPA  --  --
+Y
+   Yellow Bridge Brewing                  Higher Learning          Cream Ale                  5.0%
+                                          Dude Wanted Juice        New England IPA            6.5%
+
+#
+   412 Brewery                            Boats ‘n Hops            Session IPA                4.8%
+                                          Hazelicious              Hazy IPA                   7.1%
+
+

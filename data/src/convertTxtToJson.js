@@ -5,9 +5,9 @@ import {promisify} from 'util';
 
 // constants
 const RAW_INPUT_PATH = `${__dirname}/../raw/beerlist.txt`;
-const BEERS_PATH = `${__dirname}/../raw/beers.json`;
-const CATEGORIES_PATH = `${__dirname}/../raw/categories.json`;
-const BREWERIES_PATH = `${__dirname}/../raw/breweries.json`;
+const BEERS_PATH = `${__dirname}/../json/beers.json`;
+const CATEGORIES_PATH = `${__dirname}/../json/categories.json`;
+const BREWERIES_PATH = `${__dirname}/../json/breweries.json`;
 
 // 'global' functions
 const asyncReadFile = promisify(fs.readFile);
@@ -76,6 +76,11 @@ const linesToObjects = lines => {
   );
 };
 
+const assignBeersIds = data => ({
+  ...data,
+  beers: data.beers.map((b, i) => ({id: i, ...b})),
+});
+
 const writeData = async data => {
   await asyncWriteFile(BEERS_PATH, JSON.stringify(data.beers));
   await asyncWriteFile(CATEGORIES_PATH, JSON.stringify(data.categories));
@@ -88,6 +93,6 @@ const writeData = async data => {
 const main = async () => {
   const lines = await parseTextIntoLines();
 
-  lines |> linesToObjects |> writeData;
+  lines |> linesToObjects |> assignBeersIds |> writeData;
 };
 main();

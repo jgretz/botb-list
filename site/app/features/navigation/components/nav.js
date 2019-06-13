@@ -51,6 +51,7 @@ export default compose(
 
     link: {
       textDecoration: 'none',
+      border: 'none',
     },
   })),
 )(Nav);

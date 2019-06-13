@@ -175,8 +175,11 @@ export default compose(
     },
     button: {
       margin: theme.spacing(1),
+
       height: 60,
       width: 80,
+
+      borderWidth: 3,
     },
   })),
   renderIf(({isAboutRoute}) => isAboutRoute, Nothing),

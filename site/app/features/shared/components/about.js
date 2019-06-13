@@ -45,10 +45,10 @@ const Info = ({classes}) => (
       . As a developer, I saw my chance to take that document and create an easy
       to use website that I could use throughout the event - thus this site was
       born. It was built quickly, but I think it provides a decent experience
-      and I hope you do to.
+      and I hope you do too.
     </Typography>
     <Typography variant="body1" className={classes.content}>
-      The site is saves your data locally on your device. It also anonomously
+      This site saves your data locally on your device. It also anonymously
       sends the list of beers you drank to my server so I can have fun by
       looking at the aggregate data. To be clear, it does nothing to identify
       who you are. By using this site, you agree to the above use.

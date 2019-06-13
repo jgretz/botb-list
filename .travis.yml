@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "10"
+after_success:
+  - yarn build
+before_deploy:
+  - cd ./lib
+deploy:
+  provider: heroku
+  api_key:
+    secure: fVU33/KkCgebaaLlBVO8vj7n950tE/AAmw/Rtc5O23QwkHWUnlf6C7vRpSEo9vFItk6zX00Lyf04pqhKBV01unJokrVB/Xqe6KrcjRC3xDlkTovwq3QJPm8RDp1y8Q6ZC0bcwdbEJV4tidWZy/i20ET0ocigytWZcBSI2P/j6N9Z2IGUgniQlmaR+WorTq19H+KTZqMlO26SJtfAGko3m4zMvX8w3cxYkjOb5Ulhio/rA9Tl1klqRdFiIwDByERqybmCpopTBUdYdtK6cXhfgPaWgmi7gVMF/u7+lb6jDwZX8iK8VPSma4i8lB04tOtCY3NiAdiKq3JIezo3fTFeQvt5e/2sxLKbSEdZy97ai21pbUeuOsXkDBqnzTFW0trzIqGKiw1vfJmuOhBxPoZbaTyjg8e1+pz/dNfl4FfWxePM4Sa0MGl6kfWF0ceY9jju2q8MfKF4rwSb0gib25up6YeY/+zYP5BRKMfWF4wnzzVmLHmeMPVp8CFAI2Ppq4oUWC7t4m7sOUm5N/yr2t/DkTjZ1l0uIBvqoxuYKwcoWHXPPBGTkhsZasKNjR7IXmVu+aiwXsKYGJBLIm6xe40oatj9S0DkNmCzUQnecdrnRtMgrXEdDV6ul+R0ZDtzBMqxuxPdQOQoACCC3Rf47nNlRKkJ3yu8vE4exKecK4AFObY=
+  app: botblist
+  skip_cleanup: true
+  on:
+    repo: jgretz/botb-list

@@ -8,9 +8,10 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
-import FilterListIcon from '@material-ui/icons/FilterList';
 
 import {Link} from 'react-router-dom';
+
+import Filter from './filter';
 
 const Nav = ({classes}) => (
   <AppBar position="static">
@@ -22,10 +23,8 @@ const Nav = ({classes}) => (
           </Typography>
         </Link>
         <div>
-          <IconButton>
-            <FilterListIcon />
-          </IconButton>
-          <Link to="/about">
+          <Filter />
+          <Link to="/about" className={classes.link}>
             <IconButton>
               <InfoIcon />
             </IconButton>
@@ -48,6 +47,10 @@ export default compose(
       fontWeight: 'bold',
       textDecoration: 'none',
       color: '#fff',
+    },
+
+    link: {
+      textDecoration: 'none',
     },
   })),
 )(Nav);

@@ -12,7 +12,7 @@ const Info = ({classes}) => (
     <Typography variant="h6" color="textSecondary" className={classes.subtitle}>
       Beer List
     </Typography>
-    <Typography variant="p" className={classes.content}>
+    <Typography variant="body1" className={classes.content}>
       Hi, my name is{' '}
       <a
         href="https://www.twitter.com/joshgretz"
@@ -27,12 +27,12 @@ const Info = ({classes}) => (
       </a>{' '}
       since the beginning.
     </Typography>
-    <Typography variant="p" className={classes.content}>
+    <Typography variant="body1" className={classes.content}>
       I have always wanted to keep track of what I drink over the event, but
       that goal becomes increasingly difficult as the afternoon goes on and I
       normally give up about two hours in.
     </Typography>
-    <Typography variant="p" className={classes.content}>
+    <Typography variant="body1" className={classes.content}>
       This year, the organizers were kind enough to compile a list of most of
       the beers the breweries will be bringing and shared that as a{' '}
       <a
@@ -46,7 +46,7 @@ const Info = ({classes}) => (
       born. It was built quickly, but I think it provides a decent experience
       and I hope you do to.
     </Typography>
-    <Typography variant="p" className={classes.content}>
+    <Typography variant="body1" className={classes.content}>
       The site is saves your data locally on your device. It also anonomously
       sends the list of beers you drank to my server so I can have fun by
       looking at the aggregate data. To be clear, it does nothing to identify

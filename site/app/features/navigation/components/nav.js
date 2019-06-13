@@ -10,20 +10,26 @@ import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
 import FilterListIcon from '@material-ui/icons/FilterList';
 
+import {Link} from 'react-router-dom';
+
 const Nav = ({classes}) => (
   <AppBar position="static">
     <Toolbar>
       <Container className={classes.bar}>
-        <Typography variant="h6" className={classes.title}>
-          Beers of the Burgh
-        </Typography>
+        <Link to="/" className={classes.title}>
+          <Typography variant="h6" className={classes.title}>
+            Beers of the Burgh
+          </Typography>
+        </Link>
         <div>
           <IconButton>
             <FilterListIcon />
           </IconButton>
-          <IconButton>
-            <InfoIcon />
-          </IconButton>
+          <Link to="/about">
+            <IconButton>
+              <InfoIcon />
+            </IconButton>
+          </Link>
         </div>
       </Container>
     </Toolbar>
@@ -40,6 +46,8 @@ export default compose(
     },
     title: {
       fontWeight: 'bold',
+      textDecoration: 'none',
+      color: '#fff',
     },
   })),
 )(Nav);

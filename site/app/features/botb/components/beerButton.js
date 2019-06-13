@@ -17,7 +17,9 @@ const BeerButton = ({classes, toggleBeer}) => (
     variant="outlined"
     className={classes.drinkButton}
     onClick={toggleBeer(true)}
-  />
+  >
+    {' '}
+  </Button>
 );
 
 const BeerCheckedButton = ({classes, toggleBeer}) => (

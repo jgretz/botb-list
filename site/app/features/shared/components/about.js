@@ -2,10 +2,11 @@ import React from 'react';
 import {compose} from '@truefit/bach';
 import {withStyles} from '@truefit/bach-material-ui';
 
+import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
 const Info = ({classes}) => (
-  <div className={classes.container}>
+  <Container className={classes.container}>
     <Typography variant="h5" className={classes.title}>
       Beers of the Burgh
     </Typography>
@@ -52,7 +53,7 @@ const Info = ({classes}) => (
       looking at the aggregate data. To be clear, it does nothing to identify
       who you are. By using this site, you agree to the above use.
     </Typography>
-  </div>
+  </Container>
 );
 
 export default compose(
@@ -62,7 +63,7 @@ export default compose(
       flexDirection: 'column',
       justifyContent: 'flex-start',
 
-      margin: 24,
+      marginTop: 24,
     },
 
     title: {

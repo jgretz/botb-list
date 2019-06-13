@@ -15,7 +15,7 @@ const Nav = ({classes}) => (
     <Toolbar>
       <Container className={classes.bar}>
         <Typography variant="h6" className={classes.title}>
-          BOTB
+          Beers of the Burgh
         </Typography>
         <div>
           <IconButton>
@@ -36,6 +36,10 @@ export default compose(
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
+      padding: 0,
+    },
+    title: {
+      fontWeight: 'bold',
     },
   })),
 )(Nav);

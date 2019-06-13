@@ -6,7 +6,7 @@ import {MuiThemeProvider} from '@material-ui/core/styles';
 
 import {theme} from './styles/themes';
 
-import {Nav, Footer} from './features/navigation/components';
+import {Nav} from './features/navigation/components';
 import {Routes} from './features/shared/components';
 
 const App = () => (
@@ -15,7 +15,6 @@ const App = () => (
 
     <Nav />
     <Routes />
-    <Footer />
   </MuiThemeProvider>
 );
 

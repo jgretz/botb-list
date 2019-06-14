@@ -3,7 +3,7 @@ import nodeBitsExpress, {cors, bodyParser} from 'node-bits-express';
 import nodeBitsSpa from 'node-bits-spa';
 import nodeBitsCode from 'node-bits-code';
 
-import {configureCompression} from './util';
+import {configureCompression, configureSocket} from './util';
 
 nodeBits([
   nodeBitsExpress({
@@ -13,6 +13,7 @@ nodeBits([
       bodyParser(),
       configureCompression(),
     ],
+    postStart: [configureSocket()],
   }),
   nodeBitsCode({
     path: __dirname,

@@ -35,9 +35,9 @@
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "@material-ui/icons": "^4.2.0",
-    "@truefit/bach": "^1.0.0",
+    "@truefit/bach": "^1.0.2",
     "@truefit/bach-material-ui": "^1.0.2",
-    "@truefit/bach-recompose": "^1.0.0",
+    "@truefit/bach-recompose": "^1.0.1",
     "@truefit/bach-redux": "^1.0.1",
     "@truefit/http-utils": "^1.0.8",
     "@truefit/redux-utils": "^1.0.3",

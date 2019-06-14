@@ -1,4 +1,10 @@
+export {default as averageBeersPerDrinkerSelector} from './averageBeersPerDrinkerSelector';
+export {default as beersByAlphaSelector} from './beersByAlphaSelector';
+export {default as beersByCountSelector} from './beersByCountSelector';
+export {default as beersByDateSelector} from './beersByDateSelector';
 export {default as beersDrankSelector} from './beersDrankSelector';
 export {default as drinkersSelector} from './drinkersSelector';
+export {default as mostBeersDrankSelector} from './mostBeersDrankSelector';
+export {default as statsForBeersSelector} from './statsForBeersSelector';
 export {default as statsSelector} from './statsSelector';
 export {default as uniqueBeersSelector} from './uniqueBeersSelector';

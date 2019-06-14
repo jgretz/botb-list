@@ -1,21 +1,18 @@
 import React from 'react';
 import {compose, withEffect} from '@truefit/bach';
-import {withActions, withSelector} from '@truefit/bach-redux';
+import {withActions} from '@truefit/bach-redux';
 
 import Container from '@material-ui/core/Container';
 
-import {connectToSocket} from '../actions';
-import {
-  beersDrankSelector,
-  drinkersSelector,
-  uniqueBeersSelector,
-} from '../selectors';
+import Summary from './summary';
+import Details from './details';
 
-const Stats = ({beersDrank, drinkers, uniqueBeers}) => (
+import {connectToSocket} from '../actions';
+
+const Stats = () => (
   <Container>
-    <h1>Total Drinks: {beersDrank}</h1>
-    <h1>Total Drinkers: {drinkers}</h1>
-    <h1>Total Unique Beers: {uniqueBeers}</h1>
+    <Summary />
+    <Details />
   </Container>
 );
 
@@ -24,8 +21,4 @@ export default compose(
   withEffect(({connectToSocket}) => {
     connectToSocket();
   }, []),
-
-  withSelector('beersDrank', beersDrankSelector),
-  withSelector('drinkers', drinkersSelector),
-  withSelector('uniqueBeers', uniqueBeersSelector),
 )(Stats);

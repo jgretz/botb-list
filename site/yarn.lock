@@ -1083,10 +1083,10 @@
     "@truefit/bach" "^1.0.0"
     react "^16.8.6"
 
-"@truefit/bach-recompose@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-1.0.0.tgz#8c9863d57716c11d24e7fe0eb6934895197f7c82"
-  integrity sha512-uJakrCIOVvnpKhNu542wPNkIZHJracDIkYCQ0R/CkZgwP1+h5BBkooxP1wjHI4wDxXKHsC9rwN+lOQVyXuwptQ==
+"@truefit/bach-recompose@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-1.0.1.tgz#b69e9d59a7c754da1a52c74f75436d594e8b74bf"
+  integrity sha512-b3UfXBXNVI3zfUF7U7pu56YbdpLpOXQY9wpd95cRw4UwES0ekcln+5ju3WImMBN1OZbdew1gCXjfZabk2fL8GA==
   dependencies:
     "@truefit/bach" "^1.0.0"
     react "^16.8.6"
@@ -1105,6 +1105,13 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-1.0.0.tgz#1aa44c983991ba368ed6202db8585998d3b199ab"
   integrity sha512-PPXrSW0LASTVeGqrmwDwvefwjrXDujgyw2LSZKKWCVolshAaR9vJNDMtREdSb02kCRAHEGnYlMMQrQEDyVXq5A==
+  dependencies:
+    react "^16.8.6"
+
+"@truefit/bach@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-1.0.2.tgz#83e7792fc2f0f3b14d0c740ed499c5cd4c2fe71f"
+  integrity sha512-zyS5GQe/pNcktla0MkSRGF39g4wf7pcSL2NJVCwK+dk4pxxbCLT9iOQ6ue1y7z6k2ADqjjYTwL1/xWKltl/tFg==
   dependencies:
     react "^16.8.6"
 

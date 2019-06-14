@@ -7,8 +7,6 @@ export default async (app, socket) => {
   sockets.push(socket);
   app.set(SOCKETS, sockets);
 
-  console.log('client connected');
-
   // send initial data
   const db = await connectToDatabase();
   const stats = await db.checklist.find();

@@ -57,7 +57,8 @@
     "redux-async-await": "^1.0.1",
     "redux-promise-middleware": "^6.1.0",
     "redux-thunk": "^2.3.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

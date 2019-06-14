@@ -5,6 +5,8 @@ import {applyMiddleware, createStore} from 'redux';
 import {connectRouter, routerMiddleware} from 'connected-react-router';
 import createRootReducer from '../rootReducer';
 
+import {setCheckMiddleware} from '../features/stats/middleware';
+
 const PRODUCTION = process.env.NODE_ENV === 'production';
 
 const createProductionStore = (history, middleware) =>
@@ -39,6 +41,7 @@ export const configureStore = history => {
     promiseMiddlware,
     asyncAwaitMiddleware,
     routerMiddleware(history),
+    setCheckMiddleware,
   ];
 
   return PRODUCTION

@@ -36,7 +36,7 @@ const Filter = ({
 }) => (
   <Fragment>
     <IconButton onClick={openModal}>
-      <FilterListIcon />
+      <FilterListIcon className={classes.icon} />
     </IconButton>
 
     <Dialog
@@ -136,6 +136,16 @@ export default compose(
   }),
 
   withStyles(theme => ({
+    icon: {
+      color: ({filter}) => {
+        if (filter.search?.length > 0 || filter.notTasted) {
+          return theme.palette.secondary.main;
+        }
+
+        return '#fff';
+      },
+    },
+
     modal: {
       margin: 'auto',
     },

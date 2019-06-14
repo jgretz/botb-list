@@ -14,7 +14,6 @@ export default {
   plugins: [
     new EnvironmentPlugin({
       API_BASE_URL: 'http://localhost:4000/api/',
-      SOCKET_BASE_URL: 'https://www.botblist.com/',
     }),
     new HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({template: 'app/index.ejs'}),

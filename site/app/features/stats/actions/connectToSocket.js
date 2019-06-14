@@ -5,7 +5,7 @@ export const CHECKLIST_ADDITION = 'CHECKLIST_ADDITION';
 export const CHECKLIST_SUBTRACTION = 'CHECKLIST_SUBTRACTION';
 
 export const connectToSocket = () => dispatch => {
-  var socket = io.connect(process.env.SOCKET_BASE_URL);
+  var socket = io.connect(process.env.API_BASE_URL.replace('/api', ''));
 
   const handleMessage = type => ({payload}) => {
     dispatch({type, payload});

@@ -29,7 +29,6 @@ const post = execute(async (db, req, webUserId, beerId) => {
     checkdate: new Date().toUTCString(),
   });
 
-  console.log('Before Broadcast');
   broadcastChecklistChange(req.app, 'addition', item);
 });
 

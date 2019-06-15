@@ -31,10 +31,9 @@ const Filter = ({
     <Dialog
       open={open}
       onClose={closeModal}
-      className={classes.modal}
       aria-labelledby="Jump To Category Dialog"
       aria-describedby="The list of categories, select one and you will jump to it"
-      PaperProps={{className: classes.content}}
+      PaperProps={{className: classes.modal}}
     >
       <div className={classes.content}>
         {categories.map(category => (
@@ -42,8 +41,6 @@ const Filter = ({
             key={category}
             className={classes.categoryButton}
             onClick={handleCategoryClick(category)}
-            disableRipple
-            disableFocusRipple
           >
             {category}
           </Button>
@@ -85,19 +82,36 @@ export default compose(
   withStyles(() => ({
     modal: {
       backgroundColor: 'transparent',
+      boxShadow: 'none',
     },
     content: {
       backgroundColor: 'transparent',
+
+      overflowX: 'hidden',
     },
 
     categoryButton: {
-      fontSize: 40,
-      width: '100%',
+      fontSize: 30,
+      width: 80,
+      height: 80,
 
-      marginBottom: 12,
-      borderRadius: 12,
+      margin: '0 6px 6px 6px',
+      borderRadius: '50%',
 
       backgroundColor: '#424242',
+
+      '&:hover': {
+        backgroundColor: '#424242',
+        borderColor: '#000',
+      },
+      '&:active': {
+        boxShadow: 'none',
+        backgroundColor: '#424242',
+        borderColor: '#000',
+      },
+      '&:focus': {
+        boxShadow: '0 0 0 0.2rem rgba(0, 0, 0, .5)',
+      },
     },
   })),
 

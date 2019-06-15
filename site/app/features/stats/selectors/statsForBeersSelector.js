@@ -13,7 +13,9 @@ export default createSelector(
 
     const details = Object.keys(groups).map(id => {
       const beer = _.find(beers, b => parseInt(b.id, 10) === parseInt(id, 10));
-      const dates = groups[id].map(s => moment.utc(s.checkdate));
+      const dates = groups[id].map(s => {
+        return moment(new Date(s.checkdate)).subtract(4, 'h');
+      });
 
       return {
         id,

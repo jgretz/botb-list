@@ -3,5 +3,5 @@ import routeSelector from './routeSelector';
 
 export default createSelector(
   routeSelector,
-  route => route?.pathname === '/about',
+  route => route?.pathname === '/',
 );

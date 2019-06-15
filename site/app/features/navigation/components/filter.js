@@ -15,7 +15,7 @@ import Switch from '@material-ui/core/Switch';
 
 import {setFilter} from '../../botb/actions';
 
-import {isAboutRouteSelector} from '../selectors';
+import {isIndexRouteSelector} from '../selectors';
 import {filterSelector} from '../../botb/selectors';
 
 const Filter = ({
@@ -95,7 +95,7 @@ const Filter = ({
 const Nothing = () => null;
 
 export default compose(
-  withSelector('isAboutRoute', isAboutRouteSelector),
+  withSelector('isIndexRoute', isIndexRouteSelector),
   withSelector('filter', filterSelector),
 
   withState('open', 'setOpen', false),
@@ -192,5 +192,5 @@ export default compose(
       borderWidth: 3,
     },
   })),
-  renderIf(({isAboutRoute}) => isAboutRoute, Nothing),
+  renderIf(({isIndexRoute}) => !isIndexRoute, Nothing),
 )(Filter);

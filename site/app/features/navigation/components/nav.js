@@ -11,6 +11,7 @@ import InfoIcon from '@material-ui/icons/Info';
 
 import {Link} from 'react-router-dom';
 
+import Jump from './jump';
 import Filter from './filter';
 
 const Nav = ({classes}) => (
@@ -23,6 +24,7 @@ const Nav = ({classes}) => (
           </Typography>
         </Link>
         <div>
+          <Jump />
           <Filter />
           <Link to="/about" className={classes.link}>
             <IconButton>

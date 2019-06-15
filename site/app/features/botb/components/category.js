@@ -1,12 +1,13 @@
 import React from 'react';
 import {compose} from '@truefit/bach';
 import {withSelector} from '@truefit/bach-redux';
-import Brewery from './brewery';
+import {ScrollElement} from 'react-scroll';
 
+import Brewery from './brewery';
 import {breweriesForCategorySelector} from '../selectors';
 
-const Category = ({breweries}) => (
-  <div>
+const Category = ({category, breweries}) => (
+  <div name={category}>
     {breweries.map(brewery => (
       <Brewery key={brewery} brewery={brewery} />
     ))}
@@ -14,5 +15,5 @@ const Category = ({breweries}) => (
 );
 
 export default compose(withSelector('breweries', breweriesForCategorySelector))(
-  Category,
+  ScrollElement(Category),
 );

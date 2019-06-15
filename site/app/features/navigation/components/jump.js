@@ -42,6 +42,8 @@ const Filter = ({
             key={category}
             className={classes.categoryButton}
             onClick={handleCategoryClick(category)}
+            disableRipple
+            disableFocusRipple
           >
             {category}
           </Button>

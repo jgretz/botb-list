@@ -88,6 +88,8 @@ export default compose(
       backgroundColor: 'transparent',
 
       overflowX: 'hidden',
+      textAlign: 'center',
+      margin: 'auto 12',
     },
 
     categoryButton: {

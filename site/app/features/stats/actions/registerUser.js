@@ -1,4 +1,4 @@
-import {post} from '@truefit/http-utils';
+// import {post} from '@truefit/http-utils';
 import uuid from 'uuid';
 
 const USER = 'user';
@@ -9,9 +9,9 @@ export const registerUser = () => {
   if (!userId) {
     userId = uuid();
 
-    post('/webuser', {
-      webUserId: userId,
-    });
+    // post('/webuser', {
+    //   webUserId: userId,
+    // });
 
     localStorage.setItem(USER, userId);
   }
